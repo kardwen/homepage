@@ -10,6 +10,7 @@
         line-height: 1.6;
         font-size: 1.25em;
         font-family: Noto Sans mono, monospace;
+        background-color: #eee;
         color: #444;
         padding: 0 1em;
       }
@@ -18,6 +19,13 @@
       }
       hr {
         margin-top: 2em;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #122;
+          color: #ccc;
+        }
       }
     </style>
   </head>
